@@ -37,12 +37,12 @@ A RAG system has two main components:
 In this project, we use a quantized Llama 2 model as the generator and ChromaDB as the vector database.
 
 ## Step-by-Step Workflow
-- **Initialize Model and Tokenizer: Load the Llama 2 model and tokenizer.**
-- **Define the Query Pipeline: Set up a pipeline for text generation.**
-- **Data Ingestion and Splitting: Load and split documents into smaller chunks.**
-- **Embedding Generation: Generate embeddings using a sentence transformer.**
-**Store in ChromaDB: Store document embeddings in a vector database (ChromaDB).**
-- **RAG Query Pipeline: Combine the retriever and Llama 2 generator using Langchain to handle queries.**
+- **Initialize Model and Tokenizer:** Load the Llama 2 model and tokenizer.
+- **Define the Query Pipeline:** Set up a pipeline for text generation.
+- **Data Ingestion and Splitting:** Load and split documents into smaller chunks.
+- **Embedding Generation:** Generate embeddings using a sentence transformer.
+- **Store in ChromaDB:** Store document embeddings in a vector database (ChromaDB).
+- **RAG Query Pipeline:** Combine the retriever and Llama 2 generator using Langchain to handle queries.
 
 ## Installations, imports, and utilities
 
